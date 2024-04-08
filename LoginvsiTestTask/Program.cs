@@ -6,10 +6,10 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        CreateWebHostBuilder(args).Run();
+        CreateWebHostBuilder(args).Build().Run();
     }
 
-    public static IWebHost CreateWebHostBuilder(string[] args) =>
+    public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
             .ConfigureLogging(logging =>
             {
@@ -17,7 +17,6 @@ public static class Program
                 logging.AddDebug();
                 logging.AddConsole();
             })
-            .UseStartup<Startup.Startup>()
+            .UseStartup<Startup.Startup>();
 //            .UseUrls("http://0.0.0.0:5005")
-            .Build();
 }

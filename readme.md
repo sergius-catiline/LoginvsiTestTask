@@ -16,16 +16,18 @@ No user interface is requirement for the assignment.
 We purposely left requirements loose so candidate can do it as they like.
 
 # Executing program
+
 Build with 
 >dotnet build
 
-Create database (SQLite) with (in the LoginvsiTestTask project folder) 
+>cd LoginvsiTestTask
+
 > dotnet ef database update
 
-Run with
 >dotnet run
-
-or use any favorite IDE
+ 
+Open browser at [http:localhost:PORT/swagger/index.html](http:localhost:PORT/swagger/index.html) to play with the solution. As an alternative or use any 
+favorite IDE to build&run.
 # Assumptions 
 - It is a test task and all assumptions below are inm the context of the test task, considering simplifications if possible. 
 In the production code these assumptions to be reviewed and other decisions to be made.

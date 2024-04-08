@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoginvsiTestTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79c4af9c4b6ef4fd555a5c446f04ee9648dbfff2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b3d39c962629cf83115b893376f98bfd568f846")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoginvsiTestTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoginvsiTestTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
