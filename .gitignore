@@ -1,0 +1,9 @@
+bin/
+obj/
+.idea/
+*.DotSettings
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+tasks.db
+tasks.db.*
