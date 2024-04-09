@@ -26,7 +26,7 @@ Build with
 
 >dotnet run
  
-Open the browser at [http:localhost:PORT/swagger/index.html](http:localhost:PORT/swagger/index.html) to play with the solution. As an alternative, you can use any favorite IDE.
+Open the browser at [http://localhost:PORT/swagger/index.html](http:localhost:PORT/swagger/index.html) to play with the solution. As an alternative, you can use any favorite IDE.
 # Assumptions 
 - It is a test task and all assumptions below are in the context of the test task, considering simplifications if possible. 
 These assumptions are to be reviewed in the production code, and other decisions are to be made.
